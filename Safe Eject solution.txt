@@ -1,0 +1,39 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260128142538
+Username: AARONSPC\Thegi
+RunAs User: AARONSPC\Thegi
+Configuration Name: 
+Machine: AARONSPC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 420
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Thegi\OneDrive\Documents\PowerShell_transcript.AARONSPC.9phCy1AU.20260128142538.txt
+PS C:\Users\Thegi> diskpart
+
+DISKPART> select disk 1
+
+Disk 1 is now the selected disk.
+
+DISKPART> offline disk
+
+DiskPart successfully offlined the selected disk.
+
+DISKPART> exit
+
+Leaving DiskPart...
+PS C:\Users\Thegi> diskpart
+
+PS C:\Users\Thegi> stop-transcript 
+**********************
+Windows PowerShell transcript end
+End time: 20260128143054
+**********************

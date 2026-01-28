@@ -1,0 +1,325 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260128084600
+Username: AARONSPC\Thegi
+RunAs User: AARONSPC\Thegi
+Configuration Name: 
+Machine: AARONSPC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 18992
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Thegi\desktop\ssd_troubleshooting_log.txt
+PS C:\Users\Thegi> Get-process | where-object {$_.modules.filename -like "G:\*"}
+PS C:\Users\Thegi> Get-process | where-object {$_.modules.filename -like "G:\*"}
+PS C:\Users\Thegi> Get-Process | Where-Object {$_.Modules.FileName -like "G:\*"}Get-Process | Where-Object {$_.Modules.FileName -like "G:\*"}
+>> TerminatingError(Where-Object): "A positional parameter cannot be found that accepts argument 'Get-Process'."
+Where-Object : A positional parameter cannot be found that accepts argument 'Get-Process'.
+At line:1 char:15
++ ... t-Process | Where-Object {$_.Modules.FileName -like "G:\*"}Get-Proces ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Where-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.WhereObjectCommand
+Where-Object : A positional parameter cannot be found that accepts argument 'Get-Process'.
+At line:1 char:15
++ ... t-Process | Where-Object {$_.Modules.FileName -like "G:\*"}Get-Proces ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Where-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.WhereObjectCommand
+
+PS C:\Users\Thegi> Get-Process | Where-Object {$_.Modules.FileName -like "G:\*"}
+PS C:\Users\Thegi> Get-WinEvent -LogName System -MaxEvents 10 | Where-Object {$.Message -like "*G:*"}
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$.Message : The term '$.Message' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:60
++ ... Event -LogName System -MaxEvents 10 | Where-Object {$.Message -like " ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: ($.Message:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Thegi> Get-WinEvent -LogName System -MaxEvents 10 | Where-Object {$_.Message -like "*G:*"}
+PS C:\Users\Thegi> diskpart
+
+PS C:\Users\Thegi> Get-WinEvent -LogName system |where-object { $_.Id -eq 225 } | select-object -first 5 |Format-listMessage 
+Format-listMessage : The term 'Format-listMessage' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:88
++ ... object { $_.Id -eq 225 } | select-object -first 5 |Format-listMessage
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Format-listMessage:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Format-listMessage : The term 'Format-listMessage' is not recognized as the name of a cmdlet, function, script file,
+or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and
+try again.
+At line:1 char:88
++ ... object { $_.Id -eq 225 } | select-object -first 5 |Format-listMessage
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Format-listMessage:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Thegi> Get-WinEvent -LogName system |where-object { $_.Id -eq 225 } | select-object -first 5 |Format-list Message 
+
+
+Message : The application System with process id 4 stopped the removal or ejection for the device
+          USB\VID_0411&PID_02D0\MSFT300040501400109273.
+          Process command line:
+          List of affected devices:
+          STORAGE\Volume\{c71f0e4e-f417-11f0-9f68-f62b65efa394}#0000001208700000
+
+
+Message : The application System with process id 4 stopped the removal or ejection for the device
+          USB\VID_0411&PID_02D0\MSFT300040501400109273.
+          Process command line:
+          List of affected devices:
+          STORAGE\Volume\{c71f0e4e-f417-11f0-9f68-f62b65efa394}#0000001208700000
+
+
+Message : The application System with process id 4 stopped the removal or ejection for the device
+          USB\VID_0411&PID_02D0\MSFT300040501400109273.
+          Process command line:
+          List of affected devices:
+          STORAGE\Volume\{c71f0e4e-f417-11f0-9f68-f62b65efa394}#0000001208700000
+
+
+Message : The application System with process id 4 stopped the removal or ejection for the device
+          USB\VID_0411&PID_02D0\MSFT300040501400109273.
+          Process command line:
+          List of affected devices:
+          STORAGE\Volume\{c71f0e4e-f417-11f0-9f68-f62b65efa394}#0000001208700000
+
+
+Message : The application System with process id 4 stopped the removal or ejection for the device
+          USB\VID_0411&PID_02D0\MSFT300040501400109273.
+          Process command line:
+          List of affected devices:
+          STORAGE\Volume\{c71f0e4e-f417-11f0-9f68-f62b65efa394}#0000001208700000
+
+
+
+
+PS C:\Users\Thegi> Write-volumecache G
+Write-volumecache : No MSFT_Volume objects found with property 'DriveLetter' equal to 'G'.  Verify the value of the 
+property and retry.
+At line:1 char:1
++ Write-volumecache G
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G:Char) [Write-VolumeCache], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound_DriveLetter,Write-VolumeCache
+Write-volumecache : No MSFT_Volume objects found with property 'DriveLetter' equal to 'G'.  Verify the value of the
+property and retry.
+At line:1 char:1
++ Write-volumecache G
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G:Char) [Write-VolumeCache], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound_DriveLetter,Write-VolumeCache
+
+PS C:\Users\Thegi> write-volumecache G
+write-volumecache : No MSFT_Volume objects found with property 'DriveLetter' equal to 'G'.  Verify the value of the 
+property and retry.
+At line:1 char:1
++ write-volumecache G
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G:Char) [Write-VolumeCache], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound_DriveLetter,Write-VolumeCache
+write-volumecache : No MSFT_Volume objects found with property 'DriveLetter' equal to 'G'.  Verify the value of the
+property and retry.
+At line:1 char:1
++ write-volumecache G
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G:Char) [Write-VolumeCache], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound_DriveLetter,Write-VolumeCache
+
+PS C:\Users\Thegi> diskpart
+
+PS C:\Users\Thegi> write-volumecache G
+PS C:\Users\Thegi> Stop-Service -Name "TrkWks"
+PS C:\Users\Thegi> Set-Service -Name "TrkWks" -StartupType Disabled
+PS C:\Users\Thegi> .\handle.exe G:
+.\handle.exe : The term '.\handle.exe' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\handle.exe G:
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\handle.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\handle.exe : The term '.\handle.exe' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\handle.exe G:
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\handle.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Thegi> Invoke-WebRequest -Uri "https://example.com/file.zip" -OutFile "C:\Users\Thegi\Desktop\file.zip"
+>> TerminatingError(Invoke-WebRequest): "The remote server returned an error: (404) Not Found."
+Invoke-WebRequest : The remote server returned an error: (404) Not Found.
+At line:1 char:1
++ Invoke-WebRequest -Uri "https://example.com/file.zip" -OutFile "C:\Us ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], 
+WebException
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+Invoke-WebRequest : The remote server returned an error: (404) Not Found.
+At line:1 char:1
++ Invoke-WebRequest -Uri "https://example.com/file.zip" -OutFile "C:\Us ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+
+PS C:\Users\Thegi> Invoke-WebRequest -Uri "https://download.sysinternals.com/files/Handle.zip" -OutFile "$HOME\Desktop\Handle.zip"
+PS C:\Users\Thegi> Expand-Archive -Path "$HOME\Desktop\Handle.zip" -DestinationPath "$HOME\Desktop\HandleTool"
+PS C:\Users\Thegi> cd "$HOME\Desktop\HandleTool"
+PS C:\Users\Thegi\Desktop\HandleTool> .\handle64.exe -a -u G:
+
+PS C:\Users\Thegi\Desktop\HandleTool> stop-process -id 8356 -force
